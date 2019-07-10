@@ -134,3 +134,8 @@ p {
   .titleCenter{
     text-align: center;
   }
+
+  /*navbar custome*/
+  a:hover.nav_link_color{
+    color: rgb(93, 174, 255) !important;
+  }
