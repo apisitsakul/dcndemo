@@ -10,7 +10,19 @@ body {
   max-width: 200px; }
 
 .bg-blue-color {
-  background: linear-gradient(45deg, #003090 0%, #3272f1 100%); }
+  background: linear-gradient(45deg, #003090 0%, #3272f1 100%);
+  height: 100vh;
+  overflow: hidden;
+  vertical-align: middle;
+  padding-top: 5%;
+  padding-bottom: 25%; }
+
+.full-screen {
+  height: 60vh;
+  overflow: hidden;
+  vertical-align: middle;
+  padding-top: 1%;
+  padding-bottom: 25%; }
 
 .font-white-color {
   color: #fff !important; }
@@ -152,8 +164,7 @@ p {
 
 /*navbar custome*/
 a:hover.nav_link_color {
-  color: #5daeff !important;
-  font-weight: bold; }
+  color: #5daeff !important; }
 
 /*Show Brand*/
 .svg-inline--fa {
