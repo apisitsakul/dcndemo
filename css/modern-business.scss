@@ -13,13 +13,15 @@ body {
 }
 
 .bg-blue-color{
-  background:linear-gradient(45deg, rgba(0,48,144,1) 0%, rgba(50,114,241,1) 100%);
+  background:linear-gradient(45deg, rgba(0,48,144,1) 0%, #3272f1 100%);
 }
 
 .font-white-color{
   color: #fff !important;
 }
-
+.font-blue-color{
+  color: #75a3ff !important;
+}
 .font-green-color{
   color: #00ff4c;
   font-size: 1.2em;
@@ -258,3 +260,5 @@ margin-bottom:10px;
 @media (min-width: 768px) {
 .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
 }
+
+/*Social footer*/
