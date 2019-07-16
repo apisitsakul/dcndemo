@@ -26,7 +26,6 @@ body {
 
 .full-screen-100 {
   height: 100vh;
-  overflow: hidden;
   vertical-align: middle;
   padding-top: 1%;
   margin-bottom: 10%; }
@@ -105,10 +104,16 @@ h2 {
 .mbr-bold {
   font-weight: 700; }
 
+p.font-white-color {
+  font-size: 16px; }
+
+.text-justify {
+  text-align: justify; }
+
 p {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  line-height: 25px; }
+  line-height: 23px; }
 
 .display-6 {
   font-family: 'Source Sans Pro',sans-serif;
@@ -117,6 +122,10 @@ p {
 /* service icon section */
 img.iservice {
   height: 55px;
+  margin-right: 18px; }
+
+img.iSamll {
+  height: 30px;
   margin-right: 18px; }
 
 /*ul custome*/
@@ -158,10 +167,6 @@ img.iservice {
 .mbr-section-title3 {
   text-align: left; }
 
-h2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem; }
-
 .display-5 {
   font-family: 'Source Sans Pro',sans-serif;
   font-size: 1.4rem; }
@@ -169,18 +174,15 @@ h2 {
 .mbr-bold {
   font-weight: 700; }
 
-p {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  line-height: 25px; }
-
 .display-6 {
   font-family: 'Source Sans Pro',sans-serif;
   font-size: 1re; }
 
 /*align custome*/
 .titleCenter {
-  text-align: center; }
+  text-align: center;
+  margin: 20px auto;
+  font-style: normal !important; }
 
 /*navbar custome*/
 a:hover.nav_link_color {
