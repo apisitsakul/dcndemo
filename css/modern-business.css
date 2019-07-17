@@ -6,12 +6,32 @@
 body {
   padding-top: 56px; }
 
+/* Bootstrap Modern Button */
+.btn.outline {
+  background: none;
+  padding: 10px 60px;
+  text-align: center; }
+  .btn.outline a {
+    color: #031f57; }
+
+.btn-primary.outline {
+  border: 0.5px solid #031f57;
+  border-radius: 35px !important;
+  color: black;
+  transition: 0.5s; }
+
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #0f4cc7;
+  border: none; }
+  .btn-primary.outline:hover a, .btn-primary.outline:focus a, .btn-primary.outline:active a, .btn-primary.outline.active a, .open > .dropdown-toggle.btn-primary a {
+    color: inherit; }
+
 .nav_logo {
   max-width: 200px; }
 
 .bg-blue-color {
   background: linear-gradient(45deg, #031f57 0%, #4884fa 100%);
-  height: 100vh;
   overflow: hidden;
   vertical-align: middle;
   padding-top: 5%; }
@@ -27,7 +47,7 @@ body {
   padding-top: 1%; }
 
 .font-gray-color {
-  color: #949494;
+  color: #535353;
   font-size: 15px; }
 
 .font-white-color {
@@ -55,6 +75,10 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat; }
+
+.carousel-small {
+  height: 15vh !important;
+  background-attachment: scroll; }
 
 .carousel-item.banner {
   height: 30vh; }
@@ -829,5 +853,6 @@ p {
 @media (max-width: 768px) {
   .card {
     margin: 20px; } }
+/*Detail product list*/
 
 /*# sourceMappingURL=modern-business.css.map */
