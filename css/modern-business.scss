@@ -39,6 +39,14 @@ body {
   padding-top: 5%;
 }
 
+.bg-graylight-color{
+  background:#fafafa;
+  overflow:hidden;
+  vertical-align: middle;
+  color: rgb(53, 53, 53);
+  padding-top: 2%;
+}
+
 .full-screen{
   height:60vh;
   vertical-align: middle;
@@ -54,6 +62,7 @@ body {
 .font-gray-color{
   color: #535353;
   font-size: 17px;
+  text-align: justify;
 }
 .font-white-color{
   color: #fff !important;
