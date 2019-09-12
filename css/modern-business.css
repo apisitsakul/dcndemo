@@ -98,6 +98,9 @@ body {
 .carousel-item.banner {
   height: 30vh; }
 
+.carousel-item.banner-home {
+  height: 75vh; }
+
 .portfolio-item {
   margin-bottom: 30px; }
 
